@@ -1,0 +1,5 @@
+def future_value(amt, rate, years):
+    return amt * ((1 + (rate / 100)) ** years)
+
+# Test Data
+print(future_value(10000, 3.5, 7))  # 12722.79

@@ -1,0 +1,7 @@
+def decimal_to_binary(a):
+    return bin(a).replace("0b", "")
+
+print(decimal_to_binary(5))   
+print(decimal_to_binary(-4)) 
+print(decimal_to_binary(0))   
+print(decimal_to_binary(1))  

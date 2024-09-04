@@ -1,0 +1,17 @@
+def calculator(x, y, operation):
+    if operation == '+':
+        return x + y
+    elif operation == '-':
+        return x - y
+    elif operation == '*':
+        return x * y
+    elif operation == '/':
+        return x / y
+    else:
+        return "Invalid operation"
+
+# Sample usage
+print(calculator(10, 5, '+'))  # 15
+print(calculator(10, 5, '-'))  # 5
+print(calculator(10, 5, '*'))  # 50
+print(calculator(10, 5, '/'))  # 2.0

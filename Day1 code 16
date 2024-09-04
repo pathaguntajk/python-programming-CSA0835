@@ -1,0 +1,6 @@
+def is_armstrong_number(num):
+    order = len(str(num))
+    return num == sum(int(digit) ** order for digit in str(num))
+
+# Sample usage
+print(is_armstrong_number(153))  # True

@@ -1,0 +1,5 @@
+def is_harshad_number(num):
+    return num % sum(int(digit) for digit in str(num)) == 0
+
+# Sample usage
+print(is_harshad_number(21))  # True
